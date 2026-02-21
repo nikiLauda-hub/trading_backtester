@@ -1,0 +1,21 @@
+# C++ Build outputs
+/build/
+/cmake-build-debug/
+/cmake-build-release/
+*.out
+*.exe
+
+# Python
+__pycache__/
+venv/
+.env
+
+# Data and Binaries (тяжелые файлы)
+/data/*.csv
+/data/*.hdf5
+*.so
+*.pyd
+
+# IDE
+.idea/
+.vscode/
